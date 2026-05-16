@@ -1,0 +1,104 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // --- REUSABLE HELPERS ---
+    
+    function isSignedIn() {
+      return request.auth != null && request.auth.token.email_verified == true;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // --- USER PROFILES ---
+    match /users/{userId} {
+      allow get: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidUser(incoming());
+      allow update: if isOwner(userId) && isValidUser(incoming()) && (
+        incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'photoURL', 'updatedAt'])
+      );
+
+      function isValidUser(data) {
+        return data.keys().hasAll(['uid', 'email']) &&
+               data.uid == request.auth.uid &&
+               data.email is string && data.email.size() <= 256 &&
+               (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 2048));
+      }
+
+      // --- QR VAULT (HISTORY) ---
+      match /history/{qrId} {
+        // We use query hardening: list is only allowed if authorized
+        allow list, get: if isOwner(userId);
+        
+        allow create: if isOwner(userId) && 
+                      isValidId(qrId) && 
+                      isValidQRCode(incoming()) &&
+                      incoming().id == qrId;
+                      
+        allow update: if isOwner(userId) && 
+                      isValidQRCode(incoming()) && (
+          // Action: Toggle Favorite
+          (incoming().diff(existing()).affectedKeys().hasOnly(['isFavorite'])) ||
+          // Action: Edit Config
+          (incoming().diff(existing()).affectedKeys().hasOnly(['options', 'data', 'timestamp']))
+        );
+        
+        allow delete: if isOwner(userId);
+
+        function isValidQRCode(data) {
+          return data.keys().hasAll(['id', 'data', 'options', 'timestamp', 'authorId']) &&
+                 data.keys().size() <= 7 && // Strict key count to prevent shadow fields
+                 data.authorId == request.auth.uid &&
+                 data.data is string && data.data.size() <= 4096 &&
+                 data.timestamp is number &&
+                 data.options is map &&
+                 (!('isFavorite' in data) || data.isFavorite is bool);
+        }
+      }
+
+      // --- CUSTOM TEMPLATES ---
+      match /templates/{templateId} {
+        allow list, get: if isOwner(userId);
+        
+        allow create: if isOwner(userId) && 
+                      isValidId(templateId) && 
+                      isValidTemplate(incoming()) &&
+                      incoming().id == templateId;
+                      
+        allow update: if isOwner(userId) && 
+                      isValidTemplate(incoming()) && (
+          incoming().diff(existing()).affectedKeys().hasOnly(['name', 'options', 'timestamp'])
+        );
+        
+        allow delete: if isOwner(userId);
+
+        function isValidTemplate(data) {
+          return data.keys().hasAll(['id', 'name', 'options', 'timestamp', 'authorId']) &&
+                 data.keys().size() <= 6 &&
+                 data.authorId == request.auth.uid &&
+                 data.name is string && data.name.size() <= 64 &&
+                 data.timestamp is number &&
+                 data.options is map;
+        }
+      }
+    }
+  }
+}

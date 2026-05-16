@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Basic user information and settings",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email"]
+    },
+    "QRCode": {
+      "title": "QR Code Configuration",
+      "description": "A saved QR code configuration in the user's vault",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "data": { "type": "string" },
+        "options": { "type": "object" },
+        "timestamp": { "type": "number" },
+        "isFavorite": { "type": "boolean" },
+        "authorId": { "type": "string" }
+      },
+      "required": ["id", "data", "options", "timestamp", "authorId"]
+    },
+    "Template": {
+      "title": "Custom Style Template",
+      "description": "A saved custom styling template",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "options": { "type": "object" },
+        "timestamp": { "type": "number" },
+        "authorId": { "type": "string" }
+      },
+      "required": ["id", "name", "options", "timestamp", "authorId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles"
+    },
+    "/users/{userId}/history/{qrId}": {
+      "schema": "QRCode",
+      "description": "User's personal QR code history"
+    },
+    "/users/{userId}/templates/{templateId}": {
+      "schema": "Template",
+      "description": "User's custom style templates"
+    }
+  }
+}
