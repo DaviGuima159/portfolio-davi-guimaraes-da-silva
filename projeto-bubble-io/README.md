@@ -45,19 +45,6 @@ projeto-bubble-io/
 ├── estrutura-do-sistema.txt
 └── imagens/
 ```
-
----
-
-## 📸 Imagens do Projeto
-
-Adicione aqui os prints do sistema.
-
-Exemplo:
-
-![Sistema](./imagens/home.png)
-
----
-
 ## 📚 Aprendizados
 
 O projeto permitiu compreender conceitos importantes relacionados ao desenvolvimento visual de aplicações, lógica de sistemas e organização de experiência do usuário.
