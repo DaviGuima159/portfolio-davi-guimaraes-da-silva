@@ -1,0 +1,8 @@
+Sistema desenvolvido utilizando Bubble.io
+
+Funcionalidades:
+- Navegação entre páginas
+- Interface visual organizada
+- Estrutura de aplicação web
+- Desenvolvimento low-code
+- Experiência do usuário otimizada
