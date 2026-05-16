@@ -45,6 +45,7 @@ Meu principal objetivo é evoluir profissionalmente na área de tecnologia, adqu
 | **QR Forge** | Gerador de QR Codes personalizados com foco em design e funcionalidade. | [Ver Projeto](./projeto-qr-forge/) |
 | **Corrida do Prompt** | Projeto voltado para engenharia de prompts e geração de imagens utilizando IA. | [Ver Projeto](./projeto-corrida-do-prompt/) |
 | **Laboratório de Classificação Visual** | Experimento prático utilizando Machine Learning para análise de viés em classificações visuais realizadas por Inteligência Artificial. | [Ver Projeto](./projeto-laboratorio-de-classificacao-visual/) |
+| **Batalha de Modelos & Engenharia de Prompt (XML)** | Comparação prática entre modelos de Inteligência Artificial utilizando prompts estruturados em XML para geração automatizada de aplicações web responsivas. | [Ver Projeto](./projeto-batalha-de-modelos-xml/) |
 
 ### 🌐 Desenvolvimento Web e Low-Code
 
