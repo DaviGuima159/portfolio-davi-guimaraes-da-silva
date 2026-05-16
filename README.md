@@ -1,11 +1,4 @@
 # Davi Guimarães da Silva
-Tenho grande interesse em resolver problemas através da tecnologia e transformar ideias em projetos funcionais e profissionais. Meu foco atual está voltado para Desenvolvimento Backend, Inteligência Artificial, Automação de Processos e criação de aplicações utilizando ferramentas modernas.
-
-Durante minha trajetória acadêmica venho desenvolvendo projetos práticos envolvendo geração de QR Codes personalizados, experimentos com Inteligência Artificial, engenharia de prompts, classificação visual utilizando Machine Learning e construção de aplicações utilizando plataformas low-code como Bubble.io.
-
-Além da parte técnica, também valorizo muito habilidades interpessoais e organizacionais. Possuo experiência com comunicação, organização de tarefas, atendimento ao público, coordenação de agendas e gerenciamento de processos operacionais.
-
-Estou constantemente buscando aprender novas tecnologias, desenvolver projetos criativos e ampliar meus conhecimentos em programação, dados e IA.
 
 ### 🎯 Objetivos Profissionais
 
@@ -51,8 +44,6 @@ Meu principal objetivo é evoluir profissionalmente na área de tecnologia, adqu
 | :--- | :--- | :---: |
 | **QR Forge** | Gerador de QR Codes personalizados com foco em design e funcionalidade. | [Ver Projeto](./projeto-qr-forge/) |
 | **Corrida do Prompt** | Projeto voltado para engenharia de prompts e geração de imagens utilizando IA. | [Ver Projeto](./projeto-corrida-do-prompt/) |
-| **Laboratório de Classificação Visual** | Experimento de classificação visual utilizando conceitos de Machine Learning e análise de viés em datasets. | [Ver Projeto](./projeto-laboratorio-de-classificacao-visual/) |
-| **Batalha de Modelos** | Comparação prática entre modelos de Inteligência Artificial aplicados em tarefas criativas. | [Ver Projeto](./projeto-batalha-de-modelos/) |
 
 ### 🌐 Desenvolvimento Web e Low-Code
 
@@ -74,5 +65,4 @@ root/
 ├── projeto-qr-forge/
 ├── projeto-corrida-do-prompt/
 ├── projeto-bubble-io/
-├── projeto-laboratorio-de-classificacao-visual/
-└── projeto-batalha-de-modelos/
+└── projeto-bubble-io/
