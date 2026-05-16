@@ -79,21 +79,6 @@ projeto-laboratorio-de-classificacao-visual/
 ├── relatorio.pdf
 └── imagens/
 ```
-
----
-
-## 📸 Imagens do Projeto
-
-Adicione aqui:
-- prints do treinamento;
-- testes realizados;
-- erros de classificação;
-- resultados obtidos.
-
-Exemplo:
-
-![Classificação](./imagens/teste1.png)
-
 ---
 
 ## 📚 Aprendizados
