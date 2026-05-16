@@ -47,16 +47,6 @@ projeto-corrida-do-prompt/
 
 ---
 
-## 📸 Imagens do Projeto
-
-Adicione aqui os prints da atividade.
-
-Exemplo:
-
-![Resultado](./imagens/resultado1.png)
-
----
-
 ## 📚 Conclusão
 
 O projeto proporcionou uma compreensão mais aprofundada sobre como pequenas alterações em prompts podem impactar significativamente os resultados gerados por Inteligência Artificial.
