@@ -51,16 +51,6 @@ projeto-qr-forge/
 
 ---
 
-## 📸 Imagens do Projeto
-
-Adicione aqui os prints do sistema.
-
-Exemplo:
-
-![QR Forge](./imagens/print1.png)
-
----
-
 ## 📚 Aprendizados
 
 Durante o desenvolvimento do QR Forge, foram trabalhados conceitos relacionados à lógica de programação, estruturação de aplicações e organização de projetos.
