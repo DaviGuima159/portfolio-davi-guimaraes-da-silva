@@ -65,4 +65,4 @@ root/
 ├── projeto-qr-forge/
 ├── projeto-corrida-do-prompt/
 ├── projeto-bubble-io/
-└── projeto-bubble-io/
+
