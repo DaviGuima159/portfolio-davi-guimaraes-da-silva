@@ -1,91 +1,78 @@
-# Davi Guimaraes
+# Davi Guimarães da Silva
+Tenho grande interesse em resolver problemas através da tecnologia e transformar ideias em projetos funcionais e profissionais. Meu foco atual está voltado para Desenvolvimento Backend, Inteligência Artificial, Automação de Processos e criação de aplicações utilizando ferramentas modernas.
 
-> Estudante de Engenharia de Software | Engenharia de Prompt e Aplicações em IA
+Durante minha trajetória acadêmica venho desenvolvendo projetos práticos envolvendo geração de QR Codes personalizados, experimentos com Inteligência Artificial, engenharia de prompts, classificação visual utilizando Machine Learning e construção de aplicações utilizando plataformas low-code como Bubble.io.
 
----
+Além da parte técnica, também valorizo muito habilidades interpessoais e organizacionais. Possuo experiência com comunicação, organização de tarefas, atendimento ao público, coordenação de agendas e gerenciamento de processos operacionais.
 
-# 📫 Contato & Redes Sociais
+Estou constantemente buscando aprender novas tecnologias, desenvolver projetos criativos e ampliar meus conhecimentos em programação, dados e IA.
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davi-guimar%C3%A3es-4aa058332/)
+### 🎯 Objetivos Profissionais
 
-[![Gmail](https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davig9727@gmail.com)
-
-[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DaviGuima159)
-
----
-
-# 👨‍💻 Sobre
-
-Atualmente cursando o 1º semestre de Engenharia de Software na UNICID.
-
-Possuo interesse em desenvolvimento de software, automações e aplicações utilizando Inteligência Artificial para otimização de processos empresariais.
-
-Meu objetivo profissional é atuar como desenvolvedor e empreendedor na área de tecnologia, criando soluções inteligentes para otimizar processos internos e aumentar a produtividade de empresas através de automação e inteligência artificial.
-
-- **Habilidades Técnicas:** Python, Java, HTML, Bubble.io, IA, ERP, BI
-- **Habilidades Socioemocionais:** Comunicação, Liderança, Gestão de Dados, Gestão Financeira e Criatividade
+Meu principal objetivo é evoluir profissionalmente na área de tecnologia, adquirindo experiência prática em desenvolvimento de software, automação e inteligência artificial. Busco oportunidades que me permitam crescer tecnicamente, colaborar em equipe e participar da construção de soluções inovadoras.
 
 ---
 
-# 🛠 Minhas Ferramentas Favoritas
+## 🛠 Minhas Ferramentas Favoritas
 
-## 💻 Linguagens e Tecnologias
+### 💻 Linguagens e Tecnologias
 
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-![Java](https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+### 🗄️ Banco de Dados
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-![Bubble](https://img.shields.io/badge/BUBBLE.IO-000000?style=for-the-badge)
+### 🤖 Inteligência Artificial & Ciência de Dados
+
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white)
+
+### 🎨 Ferramentas
+
+![Canva](https://img.shields.io/badge/Canva-00C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![CapCut](https://img.shields.io/badge/CapCut-000000.svg?style=for-the-badge&logo=CapCut&logoColor=white)
+![Bubble](https://img.shields.io/badge/Bubble.io-1200FF?style=for-the-badge&logo=bubble&logoColor=white)
 
 ---
 
-## 🤖 Inteligência Artificial & Automação
+## 📂 Portfólio de Projetos
 
-![ChatGPT](https://img.shields.io/badge/CHATGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-
-![Claude](https://img.shields.io/badge/CLAUDE-000000?style=for-the-badge)
-
-![Automation](https://img.shields.io/badge/AUTOMATION-FF6B00?style=for-the-badge)
-
----
-
-# 📂 Portfólio de Projetos
-
-## 🌐 Desenvolvimento Web & NoCode
+### 🤖 Inteligência Artificial
 
 | Projeto | Descrição | Link |
-|---|---|---|
-| Sistema de Orçamentos | Plataforma criada no Bubble.io para criação e gerenciamento de orçamentos. | [Ver Projeto](https://davig9727-54518.bubbleapps.io/version-test?debug_mode=true) |
+| :--- | :--- | :---: |
+| **QR Forge** | Gerador de QR Codes personalizados com foco em design e funcionalidade. | [Ver Projeto](./projeto-qr-forge/) |
+| **Corrida do Prompt** | Projeto voltado para engenharia de prompts e geração de imagens utilizando IA. | [Ver Projeto](./projeto-corrida-do-prompt/) |
+| **Laboratório de Classificação Visual** | Experimento de classificação visual utilizando conceitos de Machine Learning e análise de viés em datasets. | [Ver Projeto](./projeto-laboratorio-de-classificacao-visual/) |
+| **Batalha de Modelos** | Comparação prática entre modelos de Inteligência Artificial aplicados em tarefas criativas. | [Ver Projeto](./projeto-batalha-de-modelos/) |
 
----
-
-## 🤖 Inteligência Artificial
+### 🌐 Desenvolvimento Web e Low-Code
 
 | Projeto | Descrição | Link |
-|---|---|---|
-| WebApp Gerador de QRCode | Aplicação para geração de QR Codes personalizados. | Em desenvolvimento |
+| :--- | :--- | :---: |
+| **Sistema com Bubble.io** | Aplicação desenvolvida utilizando Bubble.io com foco em experiência do usuário e construção visual de sistemas. | [Ver Projeto](./projeto-bubble-io/) |
 
 ---
 
-# 📚 Atualmente Estudando
+## 🏗 Estrutura do Repositório
 
-- Engenharia de Prompt
-- Inteligência Artificial
-- Python
-- Java
-- Desenvolvimento Web
-- Estruturação de Sistemas
-
----
-
-# 🏗 Estrutura do Repositório
+A organização deste repositório foi planejada para facilitar a navegação e a visualização dos projetos acadêmicos e pessoais desenvolvidos durante minha trajetória na área de tecnologia.
 
 ```bash
-portfolio-davi-guimaraes/
+root/
 │
 ├── README.md
-├── projeto-bubble-orcamentos/
-├── projeto-webapp-qrcode/
-└── assets/
+├── curriculo/
+├── projeto-qr-forge/
+├── projeto-corrida-do-prompt/
+├── projeto-bubble-io/
+├── projeto-laboratorio-de-classificacao-visual/
+└── projeto-batalha-de-modelos/
